@@ -1,0 +1,13 @@
+1) A função desse site é bem executada?
+R: Não, o site não é tão bem feito, não traz uma boa experiência ao usuário, dificultando assim o uso do site.
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+R: Justice League Snyder's Cut. Um dos melhores filmes que assisti esse ano
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+R: Mortal Kombat. Aparentemente ele realmente conseguiu ser ruim em tudo...
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+R: O ponto em que o site mais peca é, sem dúvidas, no front-end. Parece um site bagunçado, é difícil encontrar as 
+informações que deveriam ser facilmente encontradas, como uma simples barra de pesquisa. 
