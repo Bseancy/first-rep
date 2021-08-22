@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <style>
+        body{
+            background-color: rgba(48, 84, 245, 0.795);
+        }  
+
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 3fr 1fr;
+        }
+
+        .texts{
+            grid-column: 1/2;
+            width: 320;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .texts2{
+            grid-column: 3/4;
+            width: 320;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 110px;
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .page{
+            padding: 30px;
+            background-color: rgb(178, 212, 240);
+            width: 100%;
+            height: 95vh;
+            border-radius: 20px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .formulário{
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-around;
+        }
+
+        .formulário input, textarea{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: large;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .footer{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: first baseline;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    
+    </style>
+
+    <div class="grid">
+        <div class="page">
+            <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: rgb(1, 20, 126);">Assine e entenda melhor sobre Landing Pages!</h1>
+            <div class="formulário">
+                <form name="formulário">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="emailid" placeholder="SeuEmail@mail.com" name="email" /> 
+                    
+                    <label for="fone">Fone</label>
+                    <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+
+                    <label for="textarea">Comentários</label>
+                    <textarea placeholder="Deixe o comentário que sejar!" style="height: 148px; width: 399px;"></textarea>
+
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                </form>
+            </div>
+
+            <div class="footer">
+                <img width="128" height="128" src="https://image.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66658.jpg">
+            </div>
+
+
+        </div>
+
+        <div class="texts">
+            <div>
+                <h1>Alavanque sueus negócios!</h1>
+                <p>Com o uso de landing pages você pode aumentar, e muito, seus negócios!</p>
+            </div>
+            <div>
+                <img width="320" height="240" src="images/20943546.jpg" alt="">
+            </div>
+            <div>
+                <h1>Cresça seus acessos!</h1>
+                <p>Aprendendo a usar Landing Pages, você aumenta o engajamento do seu site!</p>
+            </div>           
+        </div>
+        <div class="texts2">
+            <div>
+                <img width="320" height="240" src="images/img3.jpg">
+            </div>
+            <div>
+                <h1>Expanda conosco!</h1>
+                <p>Essa é a sua chance de expandir conosco!</p>
+            </div>
+            <div>
+                <img width="320" height="240" src="images/img2.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
