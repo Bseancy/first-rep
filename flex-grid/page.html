@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>page grid</title>
+</head>
+
+<body>
+    <style>
+        body{
+            background-color: rgba(102, 1, 102, 0.795);
+        }  
+
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 3fr 1fr;
+        }
+
+        .page{
+            padding: 30px;
+            background-color: whitesmoke;
+            width: 100%;
+            height: 95vh;
+            border-radius: 20px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .texto{ 
+            background-color: rgb(187, 187, 187);
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            font-size: large;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .footer{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: first baseline;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    
+    </style>
+
+    <div class="grid">
+        <div class="page">
+            <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Company logo</h1>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eligendi veniam inventore natus autem ullam adipisci, ducimus molestias quaerat distinctio architecto dolores, vero temporibus rem pariatur, maxime nesciunt nam. Consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam tempore magnam, itaque nisi atque quo quibusdam inventore voluptatem recusandae blanditiis voluptates reprehenderit, ut vel nostrum? Reprehenderit velit quasi voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis quibusdam unde debitis maxime ut, repellat perferendis voluptate doloremque delectus enim tempora recusandae aliquid! Accusamus ipsam necessitatibus libero dignissimos sapiente! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat maxime nesciunt repellat ratione aperiam vel sint error reprehenderit, quas officiis obcaecati iste, dolorum atque, aliquid sunt odio amet saepe veritatis?</p>
+            </div>
+
+            <div class="footer">
+                <img width="64" height="64" src="images/shape.png">
+                <div>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
